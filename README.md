@@ -42,3 +42,5 @@ python -m ipykernel install --user --name custom-env --display-name "custom-env"
 # export environment.yml file
 conda env export > environment.yml
 ```
+
+If you for some reason you already have a conda environment you want to use with this repo, all you'll need to do is navigate into the repo, activate your environment, and then run `pip install -e .` to set up the src folder.
